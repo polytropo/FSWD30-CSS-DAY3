@@ -1,0 +1,15 @@
+body {
+	width: 300px;
+}
+
+.flex {
+	display: -webkit-flex;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	
+}
+
+
+
+
