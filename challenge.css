@@ -1,0 +1,155 @@
+body {
+	min-width: 320px;
+	max-width: 320px;
+}
+
+.logo img {
+	width:100%;
+
+}
+.logo {
+	
+	max-width:75px;
+}
+nav {
+	display: flex;
+	align-items: center;
+    justify-content: center;
+
+		
+}
+
+nav a {
+	padding-right: 15px;
+	padding-bottom: 3px;
+}
+
+header { display: flex;
+
+	}
+
+
+.content {
+	display: flex;
+	flex-direction: column;
+}
+
+.paygo {
+	background-color: #c0dfd9;
+	border-radius: 15px;
+}
+
+.contract {
+	background-color: #b3c2bf;
+	border-radius: 15px;
+}
+
+form {
+	text-align:center;
+}
+
+.paygo, .contract {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 5px;
+	padding-bottom: 15px;
+}
+
+footer {
+	background-color: #e3e0cf;
+	text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+    color:black;
+}
+
+a:visited {
+    text-decoration: none;
+    color:black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color:black;
+}
+
+a:active {
+    text-decoration: underline;
+    color:black;
+}
+
+
+
+@media only screen and (min-width: 1024px) {
+
+body {
+	min-width: 1024px;
+	
+}
+
+.logo img {
+	width:100%;
+
+}
+.logo {
+	
+	max-width:350px;
+}
+nav {
+	display: flex;
+	align-items: center;
+    justify-content: space-around;
+    font-size:2.5em;
+}
+
+
+		
+
+
+nav a {
+	padding-right: 15px;
+	padding-bottom: 3px;
+}
+
+header { display: flex;
+		background-color:#e3e3e3;
+		border-radius:25px;
+	}
+
+
+.content {
+	display: flex;
+	flex-direction: column;
+}
+
+.paygo {
+	background-color: #9ad3de;
+	border-radius: 25px;
+
+}
+
+.contract {
+	background-color: #89bdd3;
+	border-radius: 25px;
+}
+
+form {
+	text-align:center;
+}
+
+.paygo, .contract {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 5px;
+	padding-bottom: 15px;
+}
+
+footer {
+	background-color: #e3e0cf;
+	text-align: center;
+}
+}
